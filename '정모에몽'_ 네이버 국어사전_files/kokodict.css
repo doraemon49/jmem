@@ -1,0 +1,1645 @@
+@charset "UTF-8";
+/* 국어 사전 */
+.example .btn_expand, .example.is-expanded .btn_expand, .component_mean .btn_grade:after {
+	background-image: url(../img/sp_pc.png);
+	-webkit-background-size: 440px 420px;
+	        background-size: 440px 420px;
+}
+
+.component_food {
+	margin: 12px 0 28px 15px;
+}
+
+.component_food .origin {
+	color: #000;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.fs2 .component_food .origin {
+	font-size: 15px;
+}
+
+.fs3 .component_food .origin {
+	font-size: 16px;
+}
+
+.fs4 .component_food .origin {
+	font-size: 17px;
+}
+
+.component_food .origin[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs2 .component_food .origin[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs3 .component_food .origin[lang='ko'] {
+	font-size: 16px;
+}
+
+.fs4 .component_food .origin[lang='ko'] {
+	font-size: 17px;
+}
+
+.component_food .origin[lang^='ja'], .component_food .origin[lang^='zh'] {
+	font-size: 15px;
+}
+
+.fs2 .component_food .origin[lang^='ja'], .fs2 .component_food .origin[lang^='zh'] {
+	font-size: 16px;
+}
+
+.fs3 .component_food .origin[lang^='ja'], .fs3 .component_food .origin[lang^='zh'] {
+	font-size: 17px;
+}
+
+.fs4 .component_food .origin[lang^='ja'], .fs4 .component_food .origin[lang^='zh'] {
+	font-size: 18px;
+}
+
+.component_food .origin[lang='ar'], .component_food .origin[lang='fa'] {
+	font-size: 16px;
+}
+
+.fs2 .component_food .origin[lang='ar'], .fs2 .component_food .origin[lang='fa'] {
+	font-size: 17px;
+}
+
+.fs3 .component_food .origin[lang='ar'], .fs3 .component_food .origin[lang='fa'] {
+	font-size: 18px;
+}
+
+.fs4 .component_food .origin[lang='ar'], .fs4 .component_food .origin[lang='fa'] {
+	font-size: 19px;
+}
+
+.component_food .origin[lang='my'], .component_food .origin[lang='km'] {
+	font-size: 14px;
+}
+
+.fs2 .component_food .origin[lang='my'], .fs2 .component_food .origin[lang='km'] {
+	font-size: 15px;
+}
+
+.fs3 .component_food .origin[lang='my'], .fs3 .component_food .origin[lang='km'] {
+	font-size: 16px;
+}
+
+.fs4 .component_food .origin[lang='my'], .fs4 .component_food .origin[lang='km'] {
+	font-size: 17px;
+}
+
+.fs2 .component_food .origin {
+	line-height: 29px;
+}
+
+.fs3 .component_food .origin {
+	line-height: 30px;
+}
+
+.component_food .origin[lang='ko'] {
+	line-height: 24px;
+}
+
+.fs2 .component_food .origin[lang='ko'] {
+	line-height: 25px;
+}
+
+.fs3 .component_food .origin[lang='ko'] {
+	line-height: 26px;
+}
+
+.component_food .origin[lang^='ja'], .component_food .origin[lang^='zh'] {
+	line-height: 28px;
+}
+
+.fs2 .component_food .origin[lang^='ja'], .fs2 .component_food .origin[lang^='zh'] {
+	line-height: 29px;
+}
+
+.fs3 .component_food .origin[lang^='ja'], .fs3 .component_food .origin[lang^='zh'] {
+	line-height: 30px;
+}
+
+.component_food .origin[lang='ar'], .component_food .origin[lang='fa'] {
+	line-height: 30px;
+}
+
+.fs2 .component_food .origin[lang='ar'], .fs2 .component_food .origin[lang='fa'] {
+	line-height: 31px;
+}
+
+.fs3 .component_food .origin[lang='ar'], .fs3 .component_food .origin[lang='fa'] {
+	line-height: 32px;
+}
+
+.component_food .origin[lang='my'], .component_food .origin[lang='km'] {
+	line-height: 35px;
+}
+
+.fs2 .component_food .origin[lang='my'], .fs2 .component_food .origin[lang='km'] {
+	line-height: 36px;
+}
+
+.fs3 .component_food .origin[lang='my'], .fs3 .component_food .origin[lang='km'] {
+	line-height: 37px;
+}
+
+.component_food .translate {
+	margin-top: 12px;
+	font-size: 14px;
+	line-height: 28px;
+	color: #000;
+}
+
+.fs2 .component_food .translate {
+	font-size: 15px;
+}
+
+.fs3 .component_food .translate {
+	font-size: 16px;
+}
+
+.fs4 .component_food .translate {
+	font-size: 17px;
+}
+
+.component_food .translate[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs2 .component_food .translate[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs3 .component_food .translate[lang='ko'] {
+	font-size: 16px;
+}
+
+.fs4 .component_food .translate[lang='ko'] {
+	font-size: 17px;
+}
+
+.component_food .translate[lang^='ja'], .component_food .translate[lang^='zh'] {
+	font-size: 15px;
+}
+
+.fs2 .component_food .translate[lang^='ja'], .fs2 .component_food .translate[lang^='zh'] {
+	font-size: 16px;
+}
+
+.fs3 .component_food .translate[lang^='ja'], .fs3 .component_food .translate[lang^='zh'] {
+	font-size: 17px;
+}
+
+.fs4 .component_food .translate[lang^='ja'], .fs4 .component_food .translate[lang^='zh'] {
+	font-size: 18px;
+}
+
+.component_food .translate[lang='ar'], .component_food .translate[lang='fa'] {
+	font-size: 16px;
+}
+
+.fs2 .component_food .translate[lang='ar'], .fs2 .component_food .translate[lang='fa'] {
+	font-size: 17px;
+}
+
+.fs3 .component_food .translate[lang='ar'], .fs3 .component_food .translate[lang='fa'] {
+	font-size: 18px;
+}
+
+.fs4 .component_food .translate[lang='ar'], .fs4 .component_food .translate[lang='fa'] {
+	font-size: 19px;
+}
+
+.component_food .translate[lang='my'], .component_food .translate[lang='km'] {
+	font-size: 14px;
+}
+
+.fs2 .component_food .translate[lang='my'], .fs2 .component_food .translate[lang='km'] {
+	font-size: 15px;
+}
+
+.fs3 .component_food .translate[lang='my'], .fs3 .component_food .translate[lang='km'] {
+	font-size: 16px;
+}
+
+.fs4 .component_food .translate[lang='my'], .fs4 .component_food .translate[lang='km'] {
+	font-size: 17px;
+}
+
+.fs2 .component_food .translate {
+	line-height: 29px;
+}
+
+.fs3 .component_food .translate {
+	line-height: 30px;
+}
+
+.component_food .translate[lang='ko'] {
+	line-height: 24px;
+}
+
+.fs2 .component_food .translate[lang='ko'] {
+	line-height: 25px;
+}
+
+.fs3 .component_food .translate[lang='ko'] {
+	line-height: 26px;
+}
+
+.component_food .translate[lang^='ja'], .component_food .translate[lang^='zh'] {
+	line-height: 28px;
+}
+
+.fs2 .component_food .translate[lang^='ja'], .fs2 .component_food .translate[lang^='zh'] {
+	line-height: 29px;
+}
+
+.fs3 .component_food .translate[lang^='ja'], .fs3 .component_food .translate[lang^='zh'] {
+	line-height: 30px;
+}
+
+.component_food .translate[lang='ar'], .component_food .translate[lang='fa'] {
+	line-height: 30px;
+}
+
+.fs2 .component_food .translate[lang='ar'], .fs2 .component_food .translate[lang='fa'] {
+	line-height: 31px;
+}
+
+.fs3 .component_food .translate[lang='ar'], .fs3 .component_food .translate[lang='fa'] {
+	line-height: 32px;
+}
+
+.component_food .translate[lang='my'], .component_food .translate[lang='km'] {
+	line-height: 35px;
+}
+
+.fs2 .component_food .translate[lang='my'], .fs2 .component_food .translate[lang='km'] {
+	line-height: 36px;
+}
+
+.fs3 .component_food .translate[lang='my'], .fs3 .component_food .translate[lang='km'] {
+	line-height: 37px;
+}
+
+.component_food .view {
+	margin-top: 17px;
+	text-align: center;
+}
+
+.component_food .view img {
+	max-height: 300px;
+	width: auto;
+	vertical-align: top;
+}
+
+.component_food .source {
+	margin-top: 10px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #999;
+	text-align: center;
+}
+
+.fs2 .component_food .source {
+	font-size: 13px;
+}
+
+.fs3 .component_food .source {
+	font-size: 14px;
+}
+
+.fs4 .component_food .source {
+	font-size: 15px;
+}
+
+.fs2 .component_food .source {
+	line-height: 16px;
+}
+
+.fs3 .component_food .source {
+	line-height: 17px;
+}
+
+.example {
+	position: relative;
+	margin: 5px 0 0 0;
+	color: #666;
+}
+
+.example .tit {
+	color: #999;
+}
+
+.example + .example {
+	margin-top: 16px;
+}
+
+.example:before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	bottom: 2px;
+	border-left: 3px solid #eee;
+}
+
+.example .example_item {
+	padding-left: 16px;
+}
+
+.component_mean .example .example_item {
+	display: none;
+}
+
+.component_mean .example .example_item:first-child {
+	display: block;
+}
+
+.example .example_item .direct {
+	display: inline-block;
+	font-weight: bold;
+	color: inherit;
+}
+
+.example .example_item .sentence_structure {
+	font-size: 12px;
+	color: #888;
+	letter-spacing: 0.75px;
+}
+
+.fs2 .example .example_item .sentence_structure {
+	font-size: 13px;
+}
+
+.fs3 .example .example_item .sentence_structure {
+	font-size: 14px;
+}
+
+.fs4 .example .example_item .sentence_structure {
+	font-size: 15px;
+}
+
+.example .example_item + .example_item {
+	margin-top: 8px;
+}
+
+.example .example_item .text {
+	word-break: break-word;
+}
+
+.example [lang^='zh'] + .unit_listen {
+	margin-top: 0;
+}
+
+.example_origin .origin {
+	margin-top: 12px;
+}
+
+.example_origin .origin[lang='ko'] {
+	margin-top: 5px;
+}
+
+.example_origin .source {
+	margin-top: 3px;
+}
+
+.example_translate .origin {
+	margin-top: 13px;
+}
+
+.example_translate .origin[lang='ko'] {
+	margin-top: 6px;
+}
+
+.example_translate .pinyin {
+	margin-top: 2px;
+}
+
+.example_translate .translate {
+	display: inline-block;
+}
+
+.example_translate .translate[lang='ko'] {
+	margin-top: 2px;
+}
+
+.example_translate .pinyin + .translate {
+	margin-top: 0;
+}
+
+.example_translate .source {
+	margin-top: 4px;
+}
+
+.example_translate .unit_listen {
+	margin: 2px 0;
+}
+
+.example .btn_expand {
+	position: absolute;
+	left: -20px;
+	bottom: 2px;
+	background-position: -410px -240px;
+	width: 16px;
+	height: 16px;
+}
+
+.example.is-expanded .example_item {
+	display: block;
+}
+
+.example.is-expanded .btn_expand {
+	background-position: -410px -260px;
+	width: 16px;
+	height: 16px;
+}
+
+.example.is-closed .example_item {
+	display: none;
+}
+
+.example.is-closed .example_item:first-child {
+	display: block;
+}
+
+.example_dialogue {
+	margin-top: 9px;
+}
+
+.example_dialogue:before {
+	border-color: #cecece;
+}
+
+.example_saying {
+	margin-top: 15px;
+}
+
+.example_saying .origin {
+	margin-top: 7px;
+}
+
+.example_saying .title_saying {
+	margin-bottom: 8px;
+	padding: 0 15px;
+	font-size: 13px;
+	color: #000;
+}
+
+.fs2 .example_saying .title_saying {
+	font-size: 14px;
+}
+
+.fs3 .example_saying .title_saying {
+	font-size: 15px;
+}
+
+.fs4 .example_saying .title_saying {
+	font-size: 16px;
+}
+
+.example_saying .origin .tit {
+	font-size: 13px;
+	color: #25407d;
+}
+
+.fs2 .example_saying .origin .tit {
+	font-size: 14px;
+}
+
+.fs3 .example_saying .origin .tit {
+	font-size: 15px;
+}
+
+.fs4 .example_saying .origin .tit {
+	font-size: 16px;
+}
+
+.example_saying .count_number {
+	font-size: 11px;
+	color: #666;
+}
+
+.example_saying .origin_link {
+	color: #25407d;
+}
+
+.example_saying .btn_section_fold {
+	margin: -1px 0 -9px;
+	padding: 8px 168px 0 0;
+	font-size: 12px;
+	border-left: 3px solid #eee;
+}
+
+.fs2 .example_saying .btn_section_fold {
+	font-size: 13px;
+}
+
+.fs3 .example_saying .btn_section_fold {
+	font-size: 14px;
+}
+
+.fs4 .example_saying .btn_section_fold {
+	font-size: 15px;
+}
+
+.example_saying .related_voca {
+	margin-top: 10px;
+}
+
+.has-example_dialogue .example_translate.is-expanded .btn_expand {
+	display: none;
+}
+
+.has-example_dialogue .example + .example_dialogue {
+	display: none;
+}
+
+.has-example_dialogue .example + .example_dialogue.is-expanded {
+	display: block;
+}
+
+.example .example_item:first-child .origin,
+.example .title_saying + .example_item .origin,
+.ly_wordbook .mean_select .example_item:first-child .origin,
+.ly_wordbook .mean_select .title_saying + .example_item .origin {
+	margin-top: 0;
+}
+
+.example .origin,
+.example .translate,
+.example .sentence,
+.ly_wordbook .mean_select .origin,
+.ly_wordbook .mean_select .translate,
+.ly_wordbook .mean_select .sentence {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.fs2 .example .origin, .fs2
+.example .translate, .fs2
+.example .sentence, .fs2
+.ly_wordbook .mean_select .origin, .fs2
+.ly_wordbook .mean_select .translate, .fs2
+.ly_wordbook .mean_select .sentence {
+	font-size: 15px;
+}
+
+.fs3 .example .origin, .fs3
+.example .translate, .fs3
+.example .sentence, .fs3
+.ly_wordbook .mean_select .origin, .fs3
+.ly_wordbook .mean_select .translate, .fs3
+.ly_wordbook .mean_select .sentence {
+	font-size: 16px;
+}
+
+.fs4 .example .origin, .fs4
+.example .translate, .fs4
+.example .sentence, .fs4
+.ly_wordbook .mean_select .origin, .fs4
+.ly_wordbook .mean_select .translate, .fs4
+.ly_wordbook .mean_select .sentence {
+	font-size: 17px;
+}
+
+.example .origin[lang='ko'],
+.example .translate[lang='ko'],
+.example .sentence[lang='ko'],
+.ly_wordbook .mean_select .origin[lang='ko'],
+.ly_wordbook .mean_select .translate[lang='ko'],
+.ly_wordbook .mean_select .sentence[lang='ko'] {
+	font-size: 13px;
+}
+
+.fs2 .example .origin[lang='ko'], .fs2
+.example .translate[lang='ko'], .fs2
+.example .sentence[lang='ko'], .fs2
+.ly_wordbook .mean_select .origin[lang='ko'], .fs2
+.ly_wordbook .mean_select .translate[lang='ko'], .fs2
+.ly_wordbook .mean_select .sentence[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs3 .example .origin[lang='ko'], .fs3
+.example .translate[lang='ko'], .fs3
+.example .sentence[lang='ko'], .fs3
+.ly_wordbook .mean_select .origin[lang='ko'], .fs3
+.ly_wordbook .mean_select .translate[lang='ko'], .fs3
+.ly_wordbook .mean_select .sentence[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs4 .example .origin[lang='ko'], .fs4
+.example .translate[lang='ko'], .fs4
+.example .sentence[lang='ko'], .fs4
+.ly_wordbook .mean_select .origin[lang='ko'], .fs4
+.ly_wordbook .mean_select .translate[lang='ko'], .fs4
+.ly_wordbook .mean_select .sentence[lang='ko'] {
+	font-size: 16px;
+}
+
+.example .origin[lang^='ja'], .example .origin[lang^='zh'],
+.example .translate[lang^='ja'],
+.example .translate[lang^='zh'],
+.example .sentence[lang^='ja'],
+.example .sentence[lang^='zh'],
+.ly_wordbook .mean_select .origin[lang^='ja'],
+.ly_wordbook .mean_select .origin[lang^='zh'],
+.ly_wordbook .mean_select .translate[lang^='ja'],
+.ly_wordbook .mean_select .translate[lang^='zh'],
+.ly_wordbook .mean_select .sentence[lang^='ja'],
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	font-size: 16px;
+}
+
+.fs2 .example .origin[lang^='ja'], .fs2 .example .origin[lang^='zh'], .fs2
+.example .translate[lang^='ja'], .fs2
+.example .translate[lang^='zh'], .fs2
+.example .sentence[lang^='ja'], .fs2
+.example .sentence[lang^='zh'], .fs2
+.ly_wordbook .mean_select .origin[lang^='ja'], .fs2
+.ly_wordbook .mean_select .origin[lang^='zh'], .fs2
+.ly_wordbook .mean_select .translate[lang^='ja'], .fs2
+.ly_wordbook .mean_select .translate[lang^='zh'], .fs2
+.ly_wordbook .mean_select .sentence[lang^='ja'], .fs2
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	font-size: 17px;
+}
+
+.fs3 .example .origin[lang^='ja'], .fs3 .example .origin[lang^='zh'], .fs3
+.example .translate[lang^='ja'], .fs3
+.example .translate[lang^='zh'], .fs3
+.example .sentence[lang^='ja'], .fs3
+.example .sentence[lang^='zh'], .fs3
+.ly_wordbook .mean_select .origin[lang^='ja'], .fs3
+.ly_wordbook .mean_select .origin[lang^='zh'], .fs3
+.ly_wordbook .mean_select .translate[lang^='ja'], .fs3
+.ly_wordbook .mean_select .translate[lang^='zh'], .fs3
+.ly_wordbook .mean_select .sentence[lang^='ja'], .fs3
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	font-size: 18px;
+}
+
+.fs4 .example .origin[lang^='ja'], .fs4 .example .origin[lang^='zh'], .fs4
+.example .translate[lang^='ja'], .fs4
+.example .translate[lang^='zh'], .fs4
+.example .sentence[lang^='ja'], .fs4
+.example .sentence[lang^='zh'], .fs4
+.ly_wordbook .mean_select .origin[lang^='ja'], .fs4
+.ly_wordbook .mean_select .origin[lang^='zh'], .fs4
+.ly_wordbook .mean_select .translate[lang^='ja'], .fs4
+.ly_wordbook .mean_select .translate[lang^='zh'], .fs4
+.ly_wordbook .mean_select .sentence[lang^='ja'], .fs4
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	font-size: 19px;
+}
+
+.example .origin[lang='ar'], .example .origin[lang='fa'],
+.example .translate[lang='ar'],
+.example .translate[lang='fa'],
+.example .sentence[lang='ar'],
+.example .sentence[lang='fa'],
+.ly_wordbook .mean_select .origin[lang='ar'],
+.ly_wordbook .mean_select .origin[lang='fa'],
+.ly_wordbook .mean_select .translate[lang='ar'],
+.ly_wordbook .mean_select .translate[lang='fa'],
+.ly_wordbook .mean_select .sentence[lang='ar'],
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	font-size: 16px;
+}
+
+.fs2 .example .origin[lang='ar'], .fs2 .example .origin[lang='fa'], .fs2
+.example .translate[lang='ar'], .fs2
+.example .translate[lang='fa'], .fs2
+.example .sentence[lang='ar'], .fs2
+.example .sentence[lang='fa'], .fs2
+.ly_wordbook .mean_select .origin[lang='ar'], .fs2
+.ly_wordbook .mean_select .origin[lang='fa'], .fs2
+.ly_wordbook .mean_select .translate[lang='ar'], .fs2
+.ly_wordbook .mean_select .translate[lang='fa'], .fs2
+.ly_wordbook .mean_select .sentence[lang='ar'], .fs2
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	font-size: 17px;
+}
+
+.fs3 .example .origin[lang='ar'], .fs3 .example .origin[lang='fa'], .fs3
+.example .translate[lang='ar'], .fs3
+.example .translate[lang='fa'], .fs3
+.example .sentence[lang='ar'], .fs3
+.example .sentence[lang='fa'], .fs3
+.ly_wordbook .mean_select .origin[lang='ar'], .fs3
+.ly_wordbook .mean_select .origin[lang='fa'], .fs3
+.ly_wordbook .mean_select .translate[lang='ar'], .fs3
+.ly_wordbook .mean_select .translate[lang='fa'], .fs3
+.ly_wordbook .mean_select .sentence[lang='ar'], .fs3
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	font-size: 18px;
+}
+
+.fs4 .example .origin[lang='ar'], .fs4 .example .origin[lang='fa'], .fs4
+.example .translate[lang='ar'], .fs4
+.example .translate[lang='fa'], .fs4
+.example .sentence[lang='ar'], .fs4
+.example .sentence[lang='fa'], .fs4
+.ly_wordbook .mean_select .origin[lang='ar'], .fs4
+.ly_wordbook .mean_select .origin[lang='fa'], .fs4
+.ly_wordbook .mean_select .translate[lang='ar'], .fs4
+.ly_wordbook .mean_select .translate[lang='fa'], .fs4
+.ly_wordbook .mean_select .sentence[lang='ar'], .fs4
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	font-size: 19px;
+}
+
+.fs2 .example .origin, .fs2
+.example .translate, .fs2
+.example .sentence, .fs2
+.ly_wordbook .mean_select .origin, .fs2
+.ly_wordbook .mean_select .translate, .fs2
+.ly_wordbook .mean_select .sentence {
+	line-height: 21px;
+}
+
+.fs3 .example .origin, .fs3
+.example .translate, .fs3
+.example .sentence, .fs3
+.ly_wordbook .mean_select .origin, .fs3
+.ly_wordbook .mean_select .translate, .fs3
+.ly_wordbook .mean_select .sentence {
+	line-height: 22px;
+}
+
+.example .origin[lang^='ja'], .example .origin[lang^='zh'],
+.example .translate[lang^='ja'],
+.example .translate[lang^='zh'],
+.example .sentence[lang^='ja'],
+.example .sentence[lang^='zh'],
+.ly_wordbook .mean_select .origin[lang^='ja'],
+.ly_wordbook .mean_select .origin[lang^='zh'],
+.ly_wordbook .mean_select .translate[lang^='ja'],
+.ly_wordbook .mean_select .translate[lang^='zh'],
+.ly_wordbook .mean_select .sentence[lang^='ja'],
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	line-height: 22px;
+}
+
+.fs2 .example .origin[lang^='ja'], .fs2 .example .origin[lang^='zh'], .fs2
+.example .translate[lang^='ja'], .fs2
+.example .translate[lang^='zh'], .fs2
+.example .sentence[lang^='ja'], .fs2
+.example .sentence[lang^='zh'], .fs2
+.ly_wordbook .mean_select .origin[lang^='ja'], .fs2
+.ly_wordbook .mean_select .origin[lang^='zh'], .fs2
+.ly_wordbook .mean_select .translate[lang^='ja'], .fs2
+.ly_wordbook .mean_select .translate[lang^='zh'], .fs2
+.ly_wordbook .mean_select .sentence[lang^='ja'], .fs2
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	line-height: 23px;
+}
+
+.fs3 .example .origin[lang^='ja'], .fs3 .example .origin[lang^='zh'], .fs3
+.example .translate[lang^='ja'], .fs3
+.example .translate[lang^='zh'], .fs3
+.example .sentence[lang^='ja'], .fs3
+.example .sentence[lang^='zh'], .fs3
+.ly_wordbook .mean_select .origin[lang^='ja'], .fs3
+.ly_wordbook .mean_select .origin[lang^='zh'], .fs3
+.ly_wordbook .mean_select .translate[lang^='ja'], .fs3
+.ly_wordbook .mean_select .translate[lang^='zh'], .fs3
+.ly_wordbook .mean_select .sentence[lang^='ja'], .fs3
+.ly_wordbook .mean_select .sentence[lang^='zh'] {
+	line-height: 24px;
+}
+
+.example .origin[lang='ar'], .example .origin[lang='fa'],
+.example .translate[lang='ar'],
+.example .translate[lang='fa'],
+.example .sentence[lang='ar'],
+.example .sentence[lang='fa'],
+.ly_wordbook .mean_select .origin[lang='ar'],
+.ly_wordbook .mean_select .origin[lang='fa'],
+.ly_wordbook .mean_select .translate[lang='ar'],
+.ly_wordbook .mean_select .translate[lang='fa'],
+.ly_wordbook .mean_select .sentence[lang='ar'],
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	line-height: 25px;
+}
+
+.fs2 .example .origin[lang='ar'], .fs2 .example .origin[lang='fa'], .fs2
+.example .translate[lang='ar'], .fs2
+.example .translate[lang='fa'], .fs2
+.example .sentence[lang='ar'], .fs2
+.example .sentence[lang='fa'], .fs2
+.ly_wordbook .mean_select .origin[lang='ar'], .fs2
+.ly_wordbook .mean_select .origin[lang='fa'], .fs2
+.ly_wordbook .mean_select .translate[lang='ar'], .fs2
+.ly_wordbook .mean_select .translate[lang='fa'], .fs2
+.ly_wordbook .mean_select .sentence[lang='ar'], .fs2
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	line-height: 26px;
+}
+
+.fs3 .example .origin[lang='ar'], .fs3 .example .origin[lang='fa'], .fs3
+.example .translate[lang='ar'], .fs3
+.example .translate[lang='fa'], .fs3
+.example .sentence[lang='ar'], .fs3
+.example .sentence[lang='fa'], .fs3
+.ly_wordbook .mean_select .origin[lang='ar'], .fs3
+.ly_wordbook .mean_select .origin[lang='fa'], .fs3
+.ly_wordbook .mean_select .translate[lang='ar'], .fs3
+.ly_wordbook .mean_select .translate[lang='fa'], .fs3
+.ly_wordbook .mean_select .sentence[lang='ar'], .fs3
+.ly_wordbook .mean_select .sentence[lang='fa'] {
+	line-height: 27px;
+}
+
+.example .origin[lang='my'], .example .origin[lang='km'],
+.example .translate[lang='my'],
+.example .translate[lang='km'],
+.example .sentence[lang='my'],
+.example .sentence[lang='km'],
+.ly_wordbook .mean_select .origin[lang='my'],
+.ly_wordbook .mean_select .origin[lang='km'],
+.ly_wordbook .mean_select .translate[lang='my'],
+.ly_wordbook .mean_select .translate[lang='km'],
+.ly_wordbook .mean_select .sentence[lang='my'],
+.ly_wordbook .mean_select .sentence[lang='km'] {
+	line-height: 27px;
+}
+
+.fs2 .example .origin[lang='my'], .fs2 .example .origin[lang='km'], .fs2
+.example .translate[lang='my'], .fs2
+.example .translate[lang='km'], .fs2
+.example .sentence[lang='my'], .fs2
+.example .sentence[lang='km'], .fs2
+.ly_wordbook .mean_select .origin[lang='my'], .fs2
+.ly_wordbook .mean_select .origin[lang='km'], .fs2
+.ly_wordbook .mean_select .translate[lang='my'], .fs2
+.ly_wordbook .mean_select .translate[lang='km'], .fs2
+.ly_wordbook .mean_select .sentence[lang='my'], .fs2
+.ly_wordbook .mean_select .sentence[lang='km'] {
+	line-height: 28px;
+}
+
+.fs3 .example .origin[lang='my'], .fs3 .example .origin[lang='km'], .fs3
+.example .translate[lang='my'], .fs3
+.example .translate[lang='km'], .fs3
+.example .sentence[lang='my'], .fs3
+.example .sentence[lang='km'], .fs3
+.ly_wordbook .mean_select .origin[lang='my'], .fs3
+.ly_wordbook .mean_select .origin[lang='km'], .fs3
+.ly_wordbook .mean_select .translate[lang='my'], .fs3
+.ly_wordbook .mean_select .translate[lang='km'], .fs3
+.ly_wordbook .mean_select .sentence[lang='my'], .fs3
+.ly_wordbook .mean_select .sentence[lang='km'] {
+	line-height: 29px;
+}
+
+.example .sentence .tit,
+.ly_wordbook .mean_select .sentence .tit {
+	font-size: 13px;
+}
+
+.fs2 .example .sentence .tit, .fs2
+.ly_wordbook .mean_select .sentence .tit {
+	font-size: 14px;
+}
+
+.fs3 .example .sentence .tit, .fs3
+.ly_wordbook .mean_select .sentence .tit {
+	font-size: 15px;
+}
+
+.fs4 .example .sentence .tit, .fs4
+.ly_wordbook .mean_select .sentence .tit {
+	font-size: 16px;
+}
+
+.example .origin + .sentence .tit,
+.ly_wordbook .mean_select .origin + .sentence .tit {
+	vertical-align: 1px;
+}
+
+.example .pinyin .text,
+.ly_wordbook .mean_select .pinyin .text {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.fs2 .example .pinyin .text, .fs2
+.ly_wordbook .mean_select .pinyin .text {
+	font-size: 14px;
+}
+
+.fs3 .example .pinyin .text, .fs3
+.ly_wordbook .mean_select .pinyin .text {
+	font-size: 15px;
+}
+
+.fs4 .example .pinyin .text, .fs4
+.ly_wordbook .mean_select .pinyin .text {
+	font-size: 16px;
+}
+
+.fs2 .example .pinyin .text, .fs2
+.ly_wordbook .mean_select .pinyin .text {
+	line-height: 23px;
+}
+
+.fs3 .example .pinyin .text, .fs3
+.ly_wordbook .mean_select .pinyin .text {
+	line-height: 24px;
+}
+
+.example .related_voca,
+.ly_wordbook .mean_select .related_voca {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.fs2 .example .related_voca, .fs2
+.ly_wordbook .mean_select .related_voca {
+	font-size: 14px;
+}
+
+.fs3 .example .related_voca, .fs3
+.ly_wordbook .mean_select .related_voca {
+	font-size: 15px;
+}
+
+.fs4 .example .related_voca, .fs4
+.ly_wordbook .mean_select .related_voca {
+	font-size: 16px;
+}
+
+.fs2 .example .related_voca, .fs2
+.ly_wordbook .mean_select .related_voca {
+	line-height: 21px;
+}
+
+.fs3 .example .related_voca, .fs3
+.ly_wordbook .mean_select .related_voca {
+	line-height: 22px;
+}
+
+.example .source,
+.ly_wordbook .mean_select .source {
+	font-size: 12px;
+	color: #999;
+}
+
+.fs2 .example .source, .fs2
+.ly_wordbook .mean_select .source {
+	font-size: 13px;
+}
+
+.fs3 .example .source, .fs3
+.ly_wordbook .mean_select .source {
+	font-size: 14px;
+}
+
+.fs4 .example .source, .fs4
+.ly_wordbook .mean_select .source {
+	font-size: 15px;
+}
+
+.example sup,
+.ly_wordbook .mean_select sup {
+	display: inline-block;
+	margin-top: -3px;
+	vertical-align: top;
+}
+
+.component_mean {
+	padding: 10px 0 36px 15px;
+}
+
+.component_mean .btn_area {
+	position: relative;
+	z-index: 1;
+	float: right;
+	margin-top: 1px;
+}
+
+.component_mean .btn_toggle,
+.component_mean .btn_grade {
+	display: inline-block;
+	position: relative;
+	height: 25px;
+	padding: 0 6px 1px;
+	background-color: #fff;
+	border: 1px solid #d5d5d7;
+	font-size: 12px;
+	color: #666;
+	white-space: nowrap;
+}
+
+.component_mean .btn_toggle:disabled,
+.component_mean .btn_grade:disabled {
+	border-color: #eaeaea;
+	color: #bcbcbc;
+	cursor: default;
+}
+
+.component_mean .unit_negative {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.component_mean .mean_tray {
+	overflow: hidden;
+	clear: both;
+}
+
+.component_mean .mean_tray .part_area {
+	margin: 38px 0 -3px;
+	font-size: 14px;
+}
+
+.fs2 .component_mean .mean_tray .part_area {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .mean_tray .part_area {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .mean_tray .part_area {
+	font-size: 17px;
+}
+
+.component_mean .mean_tray .part_area:first-of-type {
+	margin-top: 14px;
+}
+
+.component_mean .mean_tray .part_area + .text_type {
+	margin-top: 12px;
+}
+
+.component_mean .mean_tray .part_area .part_speech {
+	margin-right: 4px;
+	color: #7a96b9;
+}
+
+.component_mean .mean_tray .part_area .part_speech_desc {
+	color: #888;
+}
+
+.component_mean .mean_tray .text_type {
+	margin: 38px 0 -2px;
+}
+
+.component_mean .mean_tray .text_type .num {
+	float: left;
+	margin-right: 12px;
+	font-size: 14px;
+	line-height: 17px;
+	color: #7a96b9;
+}
+
+.fs2 .component_mean .mean_tray .text_type .num {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .mean_tray .text_type .num {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .mean_tray .text_type .num {
+	font-size: 17px;
+}
+
+.fs2 .component_mean .mean_tray .text_type .num {
+	line-height: 18px;
+}
+
+.fs3 .component_mean .mean_tray .text_type .num {
+	line-height: 19px;
+}
+
+.component_mean .mean_tray .text_type .cont {
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 17px;
+	color: #888;
+}
+
+.fs2 .component_mean .mean_tray .text_type .cont {
+	font-size: 14px;
+}
+
+.fs3 .component_mean .mean_tray .text_type .cont {
+	font-size: 15px;
+}
+
+.fs4 .component_mean .mean_tray .text_type .cont {
+	font-size: 16px;
+}
+
+.fs2 .component_mean .mean_tray .text_type .cont {
+	line-height: 18px;
+}
+
+.fs3 .component_mean .mean_tray .text_type .cont {
+	line-height: 19px;
+}
+
+.component_mean .mean_tray .mean_list {
+	margin-top: 12px;
+}
+
+.component_mean .mean_tray .mean_list .mean_list {
+	margin-top: 18px;
+}
+
+.component_mean .mean_tray .mean_list.mean_list_last {
+	margin-top: -3px;
+}
+
+.component_mean .mean_tray .mean_list.mean_list_last .mean_item {
+	margin-top: 10px;
+	padding-left: 0;
+}
+
+.component_mean .mean_tray .mean_list.mean_list_last .mean_item .mean_desc {
+	margin-left: 0;
+}
+
+.component_mean .mean_tray .mean_list.mean_list_last .example {
+	margin-left: 0;
+}
+
+.component_mean .mean_tray .mean_item {
+	margin-top: 30px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item {
+	font-size: 17px;
+}
+
+.component_mean .mean_tray .mean_item:first-child {
+	margin-top: 0;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc {
+	display: table;
+	overflow: hidden;
+	margin-left: -20px;
+	color: #000;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc[lang='ar'] .cont, .component_mean .mean_tray .mean_item .mean_desc[lang='fe'] .cont {
+	margin-top: -1px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .direct {
+	color: #25407d;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .direct:hover {
+	text-decoration: underline;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .direct sup {
+	display: inline-block;
+	margin-top: -2px;
+	vertical-align: top;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .num {
+	display: table-cell;
+	min-width: 17px;
+	padding-right: 5px;
+	line-height: 23px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .num {
+	line-height: 24px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .num {
+	line-height: 25px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont {
+	display: table-cell;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .part_speech {
+	margin-right: 1px;
+	color: #7a96b9;
+	line-height: 23px;
+	letter-spacing: 0;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .part_speech {
+	line-height: 24px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .part_speech {
+	line-height: 25px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .pinyin {
+	margin-left: 2px;
+	font-size: 13px;
+	color: #666;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .pinyin {
+	font-size: 14px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .pinyin {
+	font-size: 15px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item .mean_desc .cont .pinyin {
+	font-size: 16px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .default_mean {
+	overflow: hidden;
+	display: none;
+	display: inline-block;
+	padding: 4px 7px 2px;
+	margin: 2px 4px 0 0;
+	line-height: 13px;
+	background: #b1b5c0;
+	-webkit-border-radius: 18px;
+	        border-radius: 18px;
+	font-size: 11px;
+	font-family: '돋움', Dotum, sans-serif;
+	color: #fff;
+	vertical-align: top;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 16px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 17px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 18px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	line-height: 23px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	line-height: 24px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	line-height: 25px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	font-size: 16px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	font-size: 17px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	font-size: 18px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item .mean_desc .cont .mean[lang='ko'] {
+	font-size: 17px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	line-height: 25px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean {
+	line-height: 26px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean highlight {
+	font-weight: bold;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	margin-top: 2px;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	font-size: 17px;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	line-height: 21px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .cont .mean_translate {
+	line-height: 22px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .label_translate {
+	margin-right: 2px;
+	color: #6881a1;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .cont .text_translate {
+	color: #666;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .part_speech_desc {
+	color: #999;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .part_speech_desc + .mean_addition:before {
+	display: inline-block;
+	margin: -3px 6px 0 2px;
+	width: 1px;
+	height: 14px;
+	background: #d8d8d8;
+	vertical-align: middle;
+	content: '';
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .mean_addition {
+	line-height: 23px;
+	color: #888;
+}
+
+.fs2 .component_mean .mean_tray .mean_item .mean_desc .mean_addition {
+	line-height: 24px;
+}
+
+.fs3 .component_mean .mean_tray .mean_item .mean_desc .mean_addition {
+	line-height: 25px;
+}
+
+.component_mean .mean_tray .mean_item .mean_desc .label_grade {
+	display: inline-block;
+	min-width: 19px;
+	height: 19px;
+	margin-bottom: 4px;
+	padding: 0 7px;
+	line-height: 19px;
+	border: 1px solid #e0e0e0;
+	-webkit-border-radius: 10px;
+	        border-radius: 10px;
+	font-size: 13px;
+	text-align: center;
+	vertical-align: 1px;
+	color: #666;
+}
+
+.article_opendict .component_mean .mean_tray .mean_item {
+	margin-top: 17px;
+	padding-top: 25px;
+	border-top: 1px solid #f0f0f0;
+}
+
+.article_opendict .component_mean .mean_tray .mean_item:first-child {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: 0;
+}
+
+.component_mean .explanation {
+	margin-top: 2px;
+}
+
+.component_mean .explanation .explanation_item {
+	margin-top: 2px;
+	color: #000;
+}
+
+.component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs2 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs3 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 16px;
+}
+
+.fs4 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 17px;
+}
+
+.component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 22px;
+}
+
+.fs2 .component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 23px;
+}
+
+.fs3 .component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 24px;
+}
+
+.component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 13px;
+}
+
+.fs2 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 14px;
+}
+
+.fs3 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 15px;
+}
+
+.fs4 .component_mean .explanation .explanation_item[lang='ko'] {
+	font-size: 16px;
+}
+
+.component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 21px;
+}
+
+.fs2 .component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 22px;
+}
+
+.fs3 .component_mean .explanation .explanation_item[lang='ko'] {
+	line-height: 23px;
+}
+
+.component_mean .explanation .explanation_item:first-child {
+	margin-top: 0;
+}
+
+.component_mean .explanation .explanation_item a {
+	color: #25407d;
+}
+
+.component_mean .component_relation {
+	margin-top: 15px;
+	padding: 0;
+	border: 1px solid #e7e7e7;
+}
+
+.component_mean .component_relation .row {
+	border-top: 1px solid #e7e7e7;
+	padding: 1px 15px 10px;
+}
+
+.component_mean .component_relation .row:first-child {
+	border: 0;
+}
+
+.component_mean .component_relation + .component_relation {
+	margin-top: 10px;
+}
+
+.component_mean .reference + .component_relation {
+	margin-top: 10px;
+}
+
+.component_mean .select_cp_grade {
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.component_mean .btn_grade {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 77px;
+	height: 25px;
+	padding-top: 4px;
+	text-align: left;
+}
+
+.component_mean .btn_grade:after {
+	background-position: -226px -303px;
+	width: 12px;
+	height: 5px;
+	position: absolute;
+	right: 11px;
+	top: 50%;
+	margin-top: -4px;
+	content: '';
+}
+
+.component_mean .btn_grade.is-opened:after {
+	background-position: -210px -303px;
+}
+
+.component_mean .cp_grade_list {
+	display: none;
+	position: absolute;
+	top: 24px;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	padding: 6px 0 4px;
+	background-color: #fff;
+	border: 1px solid #bbb;
+}
+
+.component_mean .grade_item {
+	padding: 4px 8px 5px;
+	display: block;
+	text-align: left;
+	color: #999;
+}
+
+.component_mean .grade_item:hover, .component_mean .grade_item[aria-selected='true'] {
+	background-color: #f8f8f8;
+	color: #03c75a;
+}
+
+/* 한글 타이틀 */
+.search_area h1 a {
+	width: 103px;
+	height: 23px;
+	background: url(../img/koko/h1_sub_dic_beta.png) no-repeat;
+	/* 메인 타이틀 */
+}
+
+.main .search_area h1 a,
+.usetip .search_area h1 a {
+	width: 157px;
+	height: 35px;
+	background-image: url(../img/koko/h1_dic_beta.png);
+}
+
+/* 사전 이용팁 */
+.use_tips .easy_input .img_area {
+	background-image: url(../img/koko/img_easyinput.png);
+}
+
+.use_tips .advanced_search .img_area {
+	background-image: url(../img/koko/img_advancedsearch.png);
+}
+
+.use_tips .multi_cp .img_area {
+	background-image: url(../img/koko/img_multicp.png);
+}
+
+.use_tips .topic .img_area {
+	background-image: url(../img/koko/img_topic.png);
+}
+
+.use_tips .standard .img_area {
+	background-image: url(../img/koko/standard_symbol.png);
+}
+
+.use_tips .korea .img_area {
+	background-image: url(../img/koko/korea_symbol.png);
+}

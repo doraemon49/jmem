@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://ad.naver.com/fxshow?su=SU10415&calp=krdic -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>AD</title>
+    <link rel="stylesheet" type="text/css" href="./common.min.css">
+    <script type="text/javascript" src="./jquery-1.8.0.min.js.다운로드"></script>
+    <script type="text/javascript" src="./pc.veta.core.min.js.다운로드"></script>
+</head>
+<body marginwidth="0" marginheight="0">
+<h5 style="font-size: 0">
+    <a href="https://siape.veta.naver.com/fxclick?eu=EU10041221&amp;calp=krdic&amp;oj=R%2BA0W0G4Qari3vFjO9ljpqrBh2Ql2x0FK0BgPgHVJxiSfTqh6uCl3wB5EyHw96U4o72u1OyfysWbTCKAv6zHzWx%2FhcG054wnTWxWfPoGkjcYLaQ45GuESwJP32MfvHEa&amp;ac=8077270&amp;src=4368828&amp;br=3146759&amp;evtcd=P901&amp;x_ti=1108&amp;tb=&amp;oid=&amp;sid1=&amp;sid2=&amp;rk=3af599dc39121172a4255a6d713fc7af&amp;eltts=eJK%2BvC07Cad%2BFRf2uH0UZQ%3D%3D&amp;lu=&amp;brs=Y&amp;" target="_blank" style="display: block">
+        <img id="adImage" width="240" height="240" title="[광고]최신 이슈, 영어로 말하고 싶니? 오늘의 뉴스 퀴즈 코리아 타임즈 핵심 어휘에 문장 연습까지!" alt="[광고]최신 이슈, 영어로 말하고 싶니? 오늘의 뉴스 퀴즈 코리아 타임즈 핵심 어휘에 문장 연습까지!" border="0" src="./2c88a21864bf59d6619d_20200427091531529.png">
+    </a>
+</h5>
+<script type="text/javascript">
+    try {
+        document.domain = 'naver.com';
+
+        $(document).ready(function() {
+            var uId = window.frameElement.id;
+            var file1 = ('https' === 'http') ? 'https://ssl.pstatic.net/tveta/libs/1276/1276664/2c88a21864bf59d6619d_20200427091531529.png' : 'https://ssl.pstatic.net/tveta/libs/1276/1276664/2c88a21864bf59d6619d_20200427091531529.png';
+
+            // set img src
+            document.getElementById('adImage').setAttribute('src', file1);
+
+            var activeview = new naver_corp_da.ActiveViewIFRAME({
+                uId: uId,
+                activeViewPercentage: 0.5,
+                activeViewTime: 1000,
+                callbackIn: function () {
+                    try {
+                        var target = parent.document.getElementById(uId);
+                        var eid = (target) ? ((parseInt(target.getBoundingClientRect().height || target.offsetHeight, 10) === 0) ? 'V000' : 'V900') : 'V000';
+                    } catch (e) {
+                        eid = 'V000';
+                    } finally {
+                        var url = 'https://siape.veta.naver.com/fxview?eu=EU10041221&calp=krdic&oj=R%2BA0W0G4Qari3vFjO9ljpqrBh2Ql2x0FK0BgPgHVJxiSfTqh6uCl3wB5EyHw96U4o72u1OyfysWbTCKAv6zHzWx%2FhcG054wnTWxWfPoGkjcYLaQ45GuESwJP32MfvHEa&ac=8077270&src=4368828&evtcd=V900&x_ti=1108&tb=&oid=&sid1=&sid2=&rk=3af599dc39121172a4255a6d713fc7af&eltts=eJK%2BvC07Cad%2BFRf2uH0UZQ%3D%3D&brs=Y&&eid=' + eid;
+                        var util = naver_corp_da.Util ? new naver_corp_da.Util() : new NBP_CORP.Nimp();
+
+                        if (eid === 'V900') {
+                            $(activeview).trigger('removeEvent');
+                        }
+
+                        if (util !== null) {
+                            util.log(url);
+                        }
+                    }
+                }
+            });
+
+            activeview.init();
+
+
+            window.callbackForSPA = {
+                removeADEventListener: function () {
+                    if (activeview !== undefined) {
+                        activeview.clearActiveView();
+                    }
+                }
+            };
+        });
+    } catch (e) {
+
+    }
+</script>
+
+</body></html>
